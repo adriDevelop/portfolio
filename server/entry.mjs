@@ -3,7 +3,7 @@ import http from 'node:http';
 import { TLSSocket } from 'node:tls';
 import { appendForwardSlash as appendForwardSlash$1, joinPaths, trimSlashes, slash, prependForwardSlash, removeTrailingForwardSlash, collapseDuplicateSlashes } from '@astrojs/internal-helpers/path';
 import { serialize, parse } from 'cookie';
-import { l as levels, g as getEventPrefix, L as Logger, A as AstroIntegrationLogger, manifest } from './manifest_wCk2QdxO.mjs';
+import { l as levels, g as getEventPrefix, L as Logger, A as AstroIntegrationLogger, manifest } from './manifest_MVXD2EVK.mjs';
 import 'kleur/colors';
 import 'html-escaper';
 import 'clsx';
@@ -2260,12 +2260,8 @@ const adapter = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 }, Symbol.toStringTag, { value: 'Module' }));
 
 const _page0  = () => import('./chunks/node_9pUgHnwV.mjs');
-const _page1  = () => import('./chunks/index_Nl1vsjIW.mjs');
-const _page2  = () => import('./chunks/presentacion_g5XOrjnX.mjs');
-const _page3  = () => import('./chunks/contactame_HjaFzNiq.mjs');
-const _page4  = () => import('./chunks/comienzos_3DzfR2qb.mjs');
-const _page5  = () => import('./chunks/proyectos_2h4_ubvD.mjs');
-const _page6  = () => import('./chunks/sendEmail_ifa-G3ck.mjs');const pageMap = new Map([["node_modules/astro/dist/assets/endpoint/node.js", _page0],["src/pages/index.astro", _page1],["src/pages/presentacion.astro", _page2],["src/pages/contactame.astro", _page3],["src/pages/comienzos.astro", _page4],["src/pages/proyectos.astro", _page5],["src/pages/email/sendEmail.json.ts", _page6]]);
+const _page1  = () => import('./chunks/index_AS8FrbNC.mjs');
+const _page2  = () => import('./chunks/sendEmail_ifa-G3ck.mjs');const pageMap = new Map([["node_modules/astro/dist/assets/endpoint/node.js", _page0],["src/pages/index.astro", _page1],["src/pages/email/sendEmail.json.ts", _page2]]);
 const _manifest = Object.assign(manifest, {
 	pageMap,
 	renderers,
