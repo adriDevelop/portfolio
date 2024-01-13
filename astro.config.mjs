@@ -12,7 +12,7 @@ export default defineConfig({
     }
   }), tailwind()],
   site: 'https://adridevelop.github.io',
-  base: 'astro-landing-delete',
+  base: 'portfolio',
   output: "server",
   adapter: node({
     mode: "standalone"
