@@ -11,10 +11,8 @@ export default defineConfig({
       forward: ["dataLayer.push"]
     }
   }), tailwind()],
-  site: 'https://adridevelop.github.io',
-  base: 'portfolio',
-  output: "server",
-  adapter: node({
-    mode: "standalone"
-  })
+  plugins: [
+    // ... otras configuraciones de plugins ...
+    '@astrojs/plugin-typescript', // Si estás usando TypeScript
+  ],
 });

@@ -1,3 +1,20 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "compilerOptions": {
+    "target": "ESnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "isolatedModules": true
+  },
+  "include": [
+    "src/**/*.ts"
+, "src/pages/api/sendEmail.json.js"  ],
+  "exclude": [
+    "src/**/*.spec.ts",
+    "node_modules"
+  ]
 }
